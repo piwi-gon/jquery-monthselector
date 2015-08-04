@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # jQuery Widget monthSelectorWidget
 
 this plugin/widget is used to build a Month-Selector on a given selector
