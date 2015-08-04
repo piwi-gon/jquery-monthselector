@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jQuery Widget monthSelectorWidget
 
 this plugin/widget is used to build a Month-Selector on a given selector
@@ -136,3 +137,7 @@ Check [Releases](https://github.com/jquery-boilerplate/jquery-boilerplate/releas
 ## License
 
 [MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
+=======
+# jquery-monthselector
+A newly created month-selector with such big entries
+>>>>>>> 0d3766f9ad33da41717e72a68ea0a9fdf5ff9ddd
