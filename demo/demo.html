@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/demo.css">
+<link rel="stylesheet" href="../dist/css/monthselector.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="../dist/js/jquery.monthselector.widget.js"></script>
+<script>
+$(document).ready(function() {
+    $('#monthSimpleId').monthSelectorWidget();
+    $('#monthFromToId').monthSelectorWidget({backward: 6, forward: 6 });
+    $('#monthFromToSelectedId').monthSelectorWidget({backward: 6, forward: 6, selected: "2015-04" });
+});
+</script>
+</head>
+<body>
+<div class="table" style="border:1px solid lightgrey;width:100%!important;">
+    <div class="trow">
+        <div class="tcell" style="vertical-align:middle;width:50%;border-bottom:1px solid lightgrey;">
+            This is the simplest example of this plugin<br>
+            it is be done with the default configuration<br>
+            Which means:<br>
+            <ul>
+                <li>current month as selected</li>
+                <li>2 years in the past</li>
+                <li>2 years in the future</li>
+            </ul>
+        </div>
+        <div class="tcell" style="vertical-align:middle;width:50%;border-bottom:1px solid lightgrey;">
+            <input type="text" name="monthSimple" id="monthSimpleId">
+        </div>
+    </div>
+    <div class="trow">
+        <div class="tcell" style="vertical-align:middle;width:50%;border-bottom:1px solid lightgrey;">
+            This is a little more complex example of this plugin as the example before<br>
+            it is be done with setting the num of months in the past and future<br>
+            Which means:<br>
+            <ul>
+                <li>current month as selected</li>
+                <li>6 months in the past</li>
+                <li>6 months in the future</li>
+            </ul>
+        </div>
+        <div class="tcell" style="vertical-align:middle;width:50%;border-bottom:1px solid lightgrey;">
+            <input type="text" name="monthFromTo" id="monthFromToId">
+        </div>
+    </div>
+    <div class="trow">
+        <div class="tcell" style="vertical-align:middle;">
+            This is a little more complex example of this plugin as the example before<br>
+            it is be done with setting the num of months in the past and future<br>
+            and the seelcted month (the month to be displayed in field) is set<br>
+            Which means:<br>
+            <ul>
+                <li>defined month as selected</li>
+                <li>6 months in the past</li>
+                <li>6 months in the future</li>
+            </ul>
+        </div>
+        <div class="tcell" style="vertical-align:middle;">
+            <input type="text" name="monthFromSelectedTo" id="monthFromToSelectedId">
+        </div>
+    </div>
+</div>
+</body>
+</html>

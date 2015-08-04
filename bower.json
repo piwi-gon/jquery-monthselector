@@ -1,0 +1,21 @@
+{
+	"name": "jquery-monthselecttor-widget",
+	"version": "3.5.0",
+	"homepage": "http://piwigon.no-ip.org",
+	"authors": [
+		"Piwi Gon <piwi.gon@osnanet.de>"
+	],
+	"description": "A Plugin made for selecting month in a definable way.",
+	"main": "src/jquery.monthselector.widget.js",
+	"keywords": [
+		"jquery",
+		"plugin",
+		"widget",
+		"monthselector",
+		"jquery-plugin",
+		"jquery-widget",
+		"jquery-monthselector",
+		"jquery-monthselector-widget"
+	],
+	"license": "MIT"
+}

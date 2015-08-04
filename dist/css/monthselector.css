@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+.ms_container {
+    width: "180px";
+    height: "34px";
+    display: "table-cell";
+    vertical-align: "middle";
+    text-align: "center";
+    cursor: "pointer"
+}
+.ms_tbl_container {
+    display:table;
+}
+.ms_tbl_row_container {
+    display:table-row;
+}
+.ms_button_left{
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    height:46px;
+    width:40px;
+}
+.ms_button_right{
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    height:46px;
+    width:40px;
+}
+.ms_button_middle {
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    text: "2015-07";
+    height:46px;
+    width:100px;
+}
+.month_list_input {
+    height: 34px;
+    width: 120px;
+}
+.month_list {
+    padding-left:1px;
+    list-style-type: none;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    border: 1px solid lightgrey;
+    background-color: white;
+    position: absolute;
+}
+.month_entry {
+    cursor: pointer;
+    height:40px;
+    width:182px;
+    vertical-align:center;
+    text-align:center;
+}
+.form-control {
+  display: block;
+  width:200px;
+  height: 150px;
+  padding: 1px; /* 12px;*/
+  font-size: 16px;
+  line-height: 2.5;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form-control:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  background-color: #eee;
+  opacity: 1;
+}
+.form-control[disabled],
+fieldset[disabled] .form-control {
+  cursor: not-allowed;
+}
